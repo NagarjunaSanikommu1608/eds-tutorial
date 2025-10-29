@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/nagarjuna-eds-poc/:/",
-    "/content/nagarjuna-eds-poc/configuration:/.helix/config.json",
-    "/content/nagarjuna-eds-poc/metadata:/metadata.json"
+    "/content/nagarjuna-eds-poc-aem/:/",
+    "/content/nagarjuna-eds-poc-aem/configuration:/.helix/config.json",
+    "/content/nagarjuna-eds-poc-aem/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/nagarjuna-eds-poc/"
+    "/content/nagarjuna-eds-poc-aem/"
   ]
 }
