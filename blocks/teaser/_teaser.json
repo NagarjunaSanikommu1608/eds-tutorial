@@ -1,7 +1,7 @@
 {
   "definitions": [
     {
-      "title": "Teaser",
+      "title": "Teaser Latest",
       "id": "teaser",
       "plugins": {
         "xwalk": {
@@ -12,7 +12,7 @@
               "model": "teaser",
               "classes": "teaser-wrapC",
               "classes_background": "light",
-              "text": "<h2>Enter a title</h2><p>...and body text here!</p>",
+              "text": "<h2>Enter a teaser title test</h2><p>...and body text here!</p>",
               "textContent_cta": "/",
               "textContent_ctaText": "Click me!",
               "select": "red"
@@ -30,7 +30,14 @@
           "component": "reference",
           "valueType": "string",
           "name": "image",
-          "label": "Image",
+          "label": "Web Image",
+          "multi": false
+        },
+        {
+          "component": "reference",
+          "valueType": "string",
+          "name": "image",
+          "label": "Mobile Image",
           "multi": false
         },
         {
