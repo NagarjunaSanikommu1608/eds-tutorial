@@ -216,25 +216,6 @@
     ]
   },
   {
-    "id": "quote",
-    "fields": [
-       {
-         "component": "richtext",
-         "name": "quote",
-         "value": "",
-         "label": "Quote",
-         "valueType": "string"
-       },
-       {
-         "component": "text",
-         "valueType": "string",
-         "name": "author",
-         "label": "Author",
-         "value": ""
-       }
-     ]
-  },
-  {
     "id": "teaser",
     "fields": [
       {
@@ -253,7 +234,7 @@
       },
       {
         "component": "richtext",
-        "name": "text",
+        "name": "textContent_text",
         "label": "Text",
         "valueType": "string",
         "required": true
@@ -269,26 +250,6 @@
         "name": "textContent_ctaText",
         "label": "CTA label",
         "valueType": "string"
-      },
-      {
-        "component": "select",
-        "label": "Select",
-        "name": "select",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Blue",
-            "value": "blue"
-          },
-          {
-            "name": "Red",
-            "value": "red"
-          },
-          {
-            "name": "Yellow",
-            "value": "yellow"
-          }
-        ]
       }
     ]
   }
