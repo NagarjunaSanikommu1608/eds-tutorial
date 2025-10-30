@@ -250,34 +250,31 @@
         "name": "textContent_ctaText",
         "label": "CTA label",
         "valueType": "string"
+      },
+      {
+        "component": "multiselect",
+        "name": "style",
+        "value": "",
+        "label": "Style",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Fade in Background",
+            "value": "fade-in"
+          },
+          {
+            "name": "Highlight",
+            "value": "highlight"
+          }
+        ]
+      },
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "backgroundImage",
+        "label": "Background Image",
+        "multi": false
       }
     ]
-  },
-  {
- 
-    "id": "quote",
-    "fields": [
-       {
-         "component": "richtext",
-         "name": "quote",
-         "value": "",
-         "label": "Quote",
-         "valueType": "string"
-       },
-       {
-         "component": "text",
-         "valueType": "string",
-         "name": "author",
-         "label": "Author",
-         "value": ""
-       },
-       {
-          "component": "toggle",
-          "name": "expandedByDefault",
-          "label": "Expanded by Default",
-          "valueType": "boolean",
-          "default": false
-        }
-     ]
   }
 ]

@@ -169,25 +169,9 @@
                   "model": "teaser",
                   "textContent_text": "<h2>Enter a Teaser title</h2><p>...and body text here!</p>",
                   "textContent_cta": "/",
-                  "textContent_ctaText": "Click me!"
-                }
-              }
-            }
-          }
-        },
-        {
-          "title": "Quote",
-          "id": "quote",
-          "plugins": {
-            "xwalk": {
-              "page": {
-                "resourceType": "core/franklin/components/block/v1/block",
-                "template": {
-                  "name": "Quote",
-                  "model": "quote",
-                  "quote": "<p>Think, McFly! Think!</p>",
-                  "author": "Biff Tannen",
-                  "expandedByDefault": true
+                  "textContent_ctaText": "Click me!",
+                  "style": "fade-in",
+                  "backgroundImage": "/"
                 }
               }
             }

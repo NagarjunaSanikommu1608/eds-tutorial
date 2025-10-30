@@ -12,7 +12,10 @@
                             "model": "teaser",
                             "textContent_text": "<h2>Enter a Teaser title</h2><p>...and body text here!</p>",
                             "textContent_cta": "/",
-                            "textContent_ctaText": "Click me!"
+                            "textContent_ctaText": "Click me!",
+                            "style": "fade-in",
+                            "backgroundImage": "/"
+
                         }
                     }
                 }
@@ -55,6 +58,30 @@
                     "name": "textContent_ctaText",
                     "label": "CTA label",
                     "valueType": "string"
+                },
+                {
+                    "component": "multiselect",
+                    "name": "style",
+                    "value": "",
+                    "label": "Style",
+                    "valueType": "string",
+                    "options": [
+                        {
+                            "name": "Fade in Background",
+                            "value": "fade-in"
+                        },
+                        {
+                            "name": "Highlight",
+                            "value": "highlight"
+                        }
+                    ]
+                },
+                {
+                    "component": "reference",
+                    "valueType": "string",
+                    "name": "backgroundImage",
+                    "label": "Background Image",
+                    "multi": false
                 }
             ]
         }
