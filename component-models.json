@@ -252,5 +252,32 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+ 
+    "id": "quote",
+    "fields": [
+       {
+         "component": "richtext",
+         "name": "quote",
+         "value": "",
+         "label": "Quote",
+         "valueType": "string"
+       },
+       {
+         "component": "text",
+         "valueType": "string",
+         "name": "author",
+         "label": "Author",
+         "value": ""
+       },
+       {
+          "component": "toggle",
+          "name": "expandedByDefault",
+          "label": "Expanded by Default",
+          "valueType": "boolean",
+          "default": false
+        }
+     ]
   }
 ]
